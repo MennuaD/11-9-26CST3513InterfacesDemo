@@ -1,0 +1,11 @@
+package Activity;
+
+
+//Relatable is an interface
+//Mennua Netri Herta Davis
+
+public interface Relatable {
+    boolean equals(GradedActivity g);
+    boolean isGreater(GradedActivity g);
+    boolean isLess(GradedActivity g);
+}
